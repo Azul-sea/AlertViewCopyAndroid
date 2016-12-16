@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE23B641DF938DA00908CB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B631DF938DA00908CB0 /* main.m */; };
+		BAE23B671DF938DA00908CB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B661DF938DA00908CB0 /* AppDelegate.m */; };
+		BAE23B6A1DF938DA00908CB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B691DF938DA00908CB0 /* ViewController.m */; };
+		BAE23B6D1DF938DA00908CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE23B6B1DF938DA00908CB0 /* Main.storyboard */; };
+		BAE23B701DF938DA00908CB0 /* AndroidAlertView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B6E1DF938DA00908CB0 /* AndroidAlertView.xcdatamodeld */; };
+		BAE23B721DF938DA00908CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE23B711DF938DA00908CB0 /* Assets.xcassets */; };
+		BAE23B751DF938DA00908CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE23B731DF938DA00908CB0 /* LaunchScreen.storyboard */; };
+		BAE23B801DF938DA00908CB0 /* AndroidAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B7F1DF938DA00908CB0 /* AndroidAlertViewTests.m */; };
+		BAE23B8B1DF938DA00908CB0 /* AndroidAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B8A1DF938DA00908CB0 /* AndroidAlertViewUITests.m */; };
+		BAE23B9A1DF93ADC00908CB0 /* ShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE23B991DF93ADC00908CB0 /* ShowAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE23B7C1DF938DA00908CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE23B571DF938DA00908CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE23B5E1DF938DA00908CB0;
+			remoteInfo = AndroidAlertView;
+		};
+		BAE23B871DF938DA00908CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE23B571DF938DA00908CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE23B5E1DF938DA00908CB0;
+			remoteInfo = AndroidAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE23B5F1DF938DA00908CB0 /* AndroidAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE23B631DF938DA00908CB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE23B651DF938DA00908CB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE23B661DF938DA00908CB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAE23B681DF938DA00908CB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAE23B691DF938DA00908CB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAE23B6C1DF938DA00908CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE23B6F1DF938DA00908CB0 /* AndroidAlertView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AndroidAlertView.xcdatamodel; sourceTree = "<group>"; };
+		BAE23B711DF938DA00908CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE23B741DF938DA00908CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE23B761DF938DA00908CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE23B7B1DF938DA00908CB0 /* AndroidAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE23B7F1DF938DA00908CB0 /* AndroidAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidAlertViewTests.m; sourceTree = "<group>"; };
+		BAE23B811DF938DA00908CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE23B861DF938DA00908CB0 /* AndroidAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroidAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE23B8A1DF938DA00908CB0 /* AndroidAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidAlertViewUITests.m; sourceTree = "<group>"; };
+		BAE23B8C1DF938DA00908CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE23B981DF93ADC00908CB0 /* ShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlertView.h; sourceTree = "<group>"; };
+		BAE23B991DF93ADC00908CB0 /* ShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE23B5C1DF938DA00908CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE23B781DF938DA00908CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE23B831DF938DA00908CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE23B561DF938D900908CB0 = {
+			isa = PBXGroup;
+			children = (
+				BAE23B611DF938DA00908CB0 /* AndroidAlertView */,
+				BAE23B7E1DF938DA00908CB0 /* AndroidAlertViewTests */,
+				BAE23B891DF938DA00908CB0 /* AndroidAlertViewUITests */,
+				BAE23B601DF938DA00908CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE23B601DF938DA00908CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE23B5F1DF938DA00908CB0 /* AndroidAlertView.app */,
+				BAE23B7B1DF938DA00908CB0 /* AndroidAlertViewTests.xctest */,
+				BAE23B861DF938DA00908CB0 /* AndroidAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE23B611DF938DA00908CB0 /* AndroidAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BAE23B651DF938DA00908CB0 /* AppDelegate.h */,
+				BAE23B661DF938DA00908CB0 /* AppDelegate.m */,
+				BAE23B681DF938DA00908CB0 /* ViewController.h */,
+				BAE23B691DF938DA00908CB0 /* ViewController.m */,
+				BAE23B981DF93ADC00908CB0 /* ShowAlertView.h */,
+				BAE23B991DF93ADC00908CB0 /* ShowAlertView.m */,
+				BAE23B6B1DF938DA00908CB0 /* Main.storyboard */,
+				BAE23B711DF938DA00908CB0 /* Assets.xcassets */,
+				BAE23B731DF938DA00908CB0 /* LaunchScreen.storyboard */,
+				BAE23B761DF938DA00908CB0 /* Info.plist */,
+				BAE23B6E1DF938DA00908CB0 /* AndroidAlertView.xcdatamodeld */,
+				BAE23B621DF938DA00908CB0 /* Supporting Files */,
+			);
+			path = AndroidAlertView;
+			sourceTree = "<group>";
+		};
+		BAE23B621DF938DA00908CB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE23B631DF938DA00908CB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAE23B7E1DF938DA00908CB0 /* AndroidAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE23B7F1DF938DA00908CB0 /* AndroidAlertViewTests.m */,
+				BAE23B811DF938DA00908CB0 /* Info.plist */,
+			);
+			path = AndroidAlertViewTests;
+			sourceTree = "<group>";
+		};
+		BAE23B891DF938DA00908CB0 /* AndroidAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE23B8A1DF938DA00908CB0 /* AndroidAlertViewUITests.m */,
+				BAE23B8C1DF938DA00908CB0 /* Info.plist */,
+			);
+			path = AndroidAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE23B5E1DF938DA00908CB0 /* AndroidAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE23B8F1DF938DA00908CB0 /* Build configuration list for PBXNativeTarget "AndroidAlertView" */;
+			buildPhases = (
+				BAE23B5B1DF938DA00908CB0 /* Sources */,
+				BAE23B5C1DF938DA00908CB0 /* Frameworks */,
+				BAE23B5D1DF938DA00908CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidAlertView;
+			productName = AndroidAlertView;
+			productReference = BAE23B5F1DF938DA00908CB0 /* AndroidAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE23B7A1DF938DA00908CB0 /* AndroidAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE23B921DF938DA00908CB0 /* Build configuration list for PBXNativeTarget "AndroidAlertViewTests" */;
+			buildPhases = (
+				BAE23B771DF938DA00908CB0 /* Sources */,
+				BAE23B781DF938DA00908CB0 /* Frameworks */,
+				BAE23B791DF938DA00908CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE23B7D1DF938DA00908CB0 /* PBXTargetDependency */,
+			);
+			name = AndroidAlertViewTests;
+			productName = AndroidAlertViewTests;
+			productReference = BAE23B7B1DF938DA00908CB0 /* AndroidAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAE23B851DF938DA00908CB0 /* AndroidAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE23B951DF938DA00908CB0 /* Build configuration list for PBXNativeTarget "AndroidAlertViewUITests" */;
+			buildPhases = (
+				BAE23B821DF938DA00908CB0 /* Sources */,
+				BAE23B831DF938DA00908CB0 /* Frameworks */,
+				BAE23B841DF938DA00908CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE23B881DF938DA00908CB0 /* PBXTargetDependency */,
+			);
+			name = AndroidAlertViewUITests;
+			productName = AndroidAlertViewUITests;
+			productReference = BAE23B861DF938DA00908CB0 /* AndroidAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE23B571DF938DA00908CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wk;
+				TargetAttributes = {
+					BAE23B5E1DF938DA00908CB0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 47NZ4SJVUG;
+						ProvisioningStyle = Automatic;
+					};
+					BAE23B7A1DF938DA00908CB0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAE23B5E1DF938DA00908CB0;
+					};
+					BAE23B851DF938DA00908CB0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAE23B5E1DF938DA00908CB0;
+					};
+				};
+			};
+			buildConfigurationList = BAE23B5A1DF938DA00908CB0 /* Build configuration list for PBXProject "AndroidAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE23B561DF938D900908CB0;
+			productRefGroup = BAE23B601DF938DA00908CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE23B5E1DF938DA00908CB0 /* AndroidAlertView */,
+				BAE23B7A1DF938DA00908CB0 /* AndroidAlertViewTests */,
+				BAE23B851DF938DA00908CB0 /* AndroidAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE23B5D1DF938DA00908CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE23B751DF938DA00908CB0 /* LaunchScreen.storyboard in Resources */,
+				BAE23B721DF938DA00908CB0 /* Assets.xcassets in Resources */,
+				BAE23B6D1DF938DA00908CB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE23B791DF938DA00908CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE23B841DF938DA00908CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE23B5B1DF938DA00908CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE23B6A1DF938DA00908CB0 /* ViewController.m in Sources */,
+				BAE23B701DF938DA00908CB0 /* AndroidAlertView.xcdatamodeld in Sources */,
+				BAE23B9A1DF93ADC00908CB0 /* ShowAlertView.m in Sources */,
+				BAE23B671DF938DA00908CB0 /* AppDelegate.m in Sources */,
+				BAE23B641DF938DA00908CB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE23B771DF938DA00908CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE23B801DF938DA00908CB0 /* AndroidAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE23B821DF938DA00908CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE23B8B1DF938DA00908CB0 /* AndroidAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE23B7D1DF938DA00908CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE23B5E1DF938DA00908CB0 /* AndroidAlertView */;
+			targetProxy = BAE23B7C1DF938DA00908CB0 /* PBXContainerItemProxy */;
+		};
+		BAE23B881DF938DA00908CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE23B5E1DF938DA00908CB0 /* AndroidAlertView */;
+			targetProxy = BAE23B871DF938DA00908CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE23B6B1DF938DA00908CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE23B6C1DF938DA00908CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE23B731DF938DA00908CB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE23B741DF938DA00908CB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE23B8D1DF938DA00908CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE23B8E1DF938DA00908CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE23B901DF938DA00908CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47NZ4SJVUG;
+				INFOPLIST_FILE = AndroidAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wk.AndroidAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BAE23B911DF938DA00908CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47NZ4SJVUG;
+				INFOPLIST_FILE = AndroidAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wk.AndroidAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BAE23B931DF938DA00908CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AndroidAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wk.AndroidAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidAlertView.app/AndroidAlertView";
+			};
+			name = Debug;
+		};
+		BAE23B941DF938DA00908CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AndroidAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wk.AndroidAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroidAlertView.app/AndroidAlertView";
+			};
+			name = Release;
+		};
+		BAE23B961DF938DA00908CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AndroidAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wk.AndroidAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AndroidAlertView;
+			};
+			name = Debug;
+		};
+		BAE23B971DF938DA00908CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AndroidAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wk.AndroidAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AndroidAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE23B5A1DF938DA00908CB0 /* Build configuration list for PBXProject "AndroidAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE23B8D1DF938DA00908CB0 /* Debug */,
+				BAE23B8E1DF938DA00908CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE23B8F1DF938DA00908CB0 /* Build configuration list for PBXNativeTarget "AndroidAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE23B901DF938DA00908CB0 /* Debug */,
+				BAE23B911DF938DA00908CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE23B921DF938DA00908CB0 /* Build configuration list for PBXNativeTarget "AndroidAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE23B931DF938DA00908CB0 /* Debug */,
+				BAE23B941DF938DA00908CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE23B951DF938DA00908CB0 /* Build configuration list for PBXNativeTarget "AndroidAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE23B961DF938DA00908CB0 /* Debug */,
+				BAE23B971DF938DA00908CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAE23B6E1DF938DA00908CB0 /* AndroidAlertView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAE23B6F1DF938DA00908CB0 /* AndroidAlertView.xcdatamodel */,
+			);
+			currentVersion = BAE23B6F1DF938DA00908CB0 /* AndroidAlertView.xcdatamodel */;
+			path = AndroidAlertView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAE23B571DF938DA00908CB0 /* Project object */;
+}
